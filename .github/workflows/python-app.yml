@@ -35,4 +35,4 @@ jobs:
         run: |
           echo "Python version: ${{ matrix.python-version }}"
           python -m unittest test.py
-        continue-on-error: true
+        #continue-on-error: true
